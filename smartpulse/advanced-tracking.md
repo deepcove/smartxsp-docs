@@ -12,6 +12,10 @@ Similarly, the clicks and the click-through rate represent the volume of traffic
 
 ## Advanced KPI
 
+{% hint style="warning" %}
+Be aware that you may observe discrepancies between the indicators in the header, the general indicators, and those found in the Advanced Tracking section. These differences can be attributed to the method of accounting that uses JavaScript and, in some cases, may miss certain actions depending on the device used.
+{% endhint %}
+
 ### Pulse
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
