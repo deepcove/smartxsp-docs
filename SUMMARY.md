@@ -50,6 +50,10 @@
 
 * [Using SmartXSP for IAB formats](display/using-smartxsp-for-iab-formats.md)
 
+## Ad Serving <a href="#adserving" id="adserving"></a>
+
+* [Direct AdServing](adserving/no-url.md)
+
 ## Looker Studio Connector
 
 * [Looker Studio : what is this connector](looker-studio-connector/looker-studio-what-is-this-connector.md)
@@ -67,7 +71,3 @@
 ## Troubleshooting
 
 * [No URL](troubleshooting/no-url.md)
-
-## Ad Serving <a href="#adserving" id="adserving"></a>
-
-* [Direct AdServing](adserving/no-url.md)
