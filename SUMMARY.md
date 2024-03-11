@@ -67,3 +67,7 @@
 ## Troubleshooting
 
 * [No URL](troubleshooting/no-url.md)
+
+## Ad Serving <a href="#adserving" id="adserving"></a>
+
+* [Direct AdServing](adserving/no-url.md)
