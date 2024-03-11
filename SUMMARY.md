@@ -52,7 +52,7 @@
 
 ## Ad Serving <a href="#adserving" id="adserving"></a>
 
-* [Direct AdServing](adserving/no-url.md)
+* [Direct AdServing](adserving/direct.md)
 
 ## Looker Studio Connector
 
