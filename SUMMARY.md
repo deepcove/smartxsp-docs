@@ -43,6 +43,7 @@
 
 ***
 
+* [Transition Effects](transition-effects.md)
 * [Page](page.md)
 * [Social Generator](social-generator.md)
 
