@@ -18,10 +18,10 @@ description: >-
 * [Polygons Wind](transition-effects.md#polygons-wind)
 * [Pixelize](transition-effects.md#pixelize)
 * [Ripple](transition-effects.md#ripple)
-* Shutters
-* Slices
-* Squares
-* Stretch
+* [Shutters](transition-effects.md#shutters)
+* [Slices](transition-effects.md#slices)
+* [Squares](transition-effects.md#squares)
+* [Stretch](transition-effects.md#stretch)
 * Wave X
 * [Wind](transition-effects.md#wind)
 
@@ -95,6 +95,36 @@ Pixelize effect
 
 {% embed url="https://drive.google.com/file/d/13POTkADtZ7E3kJu36bC9oP9xh0XGLYBA/view?usp=sharing" %}
 Ripple effect
+{% endembed %}
+
+## Shutters
+
+{% embed url="https://drive.google.com/file/d/13Pl2IRK27d2dXdFJbR1MUSx06cMtppvh/view?usp=drive_link" %}
+Shutters effect
+{% endembed %}
+
+## Slices
+
+{% embed url="https://drive.google.com/file/d/13GKEkzeJAM6QKis0MT6h46JoK-21NQdJ/view?usp=drive_link" %}
+Slices effect
+{% endembed %}
+
+## Squares
+
+{% embed url="https://drive.google.com/file/d/13EBeWIAZqlDw_tqu0VooS_hjq_jUcggr/view?usp=drive_link" %}
+Squares effect
+{% endembed %}
+
+## Stretch
+
+{% embed url="https://drive.google.com/file/d/13G59qQx69B1R2UypIg-LhNZXFLtK0T9g/view?usp=drive_link" %}
+Stretch effect
+{% endembed %}
+
+## Wave X
+
+{% embed url="https://drive.google.com/file/d/12fBIDe0CyrfPA9V2kZRbpxiV5mdceahq/view?usp=drive_link" %}
+Wave X effect
 {% endembed %}
 
 ## Wind
