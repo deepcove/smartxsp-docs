@@ -22,7 +22,7 @@ description: >-
 * [Slices](transition-effects.md#slices)
 * [Squares](transition-effects.md#squares)
 * [Stretch](transition-effects.md#stretch)
-* Wave X
+* [Wave X](transition-effects.md#wave-x)
 * [Wind](transition-effects.md#wind)
 
 ## Dots
