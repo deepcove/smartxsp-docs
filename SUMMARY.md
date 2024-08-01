@@ -72,3 +72,7 @@
 ## Troubleshooting
 
 * [No URL](troubleshooting/no-url.md)
+
+## Settings
+
+* [Site custom settings](settings/site-custom-settings.md)
