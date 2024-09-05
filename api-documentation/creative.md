@@ -12,20 +12,26 @@ description: >-
 
 ## Get creative
 
-{% swagger method="get" path="/creatives/{creative_id}" baseUrl="https://api.smartxsp.io" summary="Get campaign details" expanded="true" %}
-{% swagger-description %}
+## Get campaign details
+
+<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/creatives/{creative_id}`
+
 Retrieves campaign details.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-The Bearer token you get during login process.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="creative_id" required="true" %}
-The numeric id of the creative
-{% endswagger-parameter %}
+| Name                                           | Type   | Description                    |
+| ---------------------------------------------- | ------ | ------------------------------ |
+| creative\_id<mark style="color:red;">\*</mark> | String | The numeric id of the creative |
 
-{% swagger-response status="200: OK" description="Detail of a creative" %}
+#### Headers
+
+| Name                                            | Type   | Description                                    |
+| ----------------------------------------------- | ------ | ---------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | The Bearer token you get during login process. |
+
+{% tabs %}
+{% tab title="200: OK Detail of a creative" %}
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
@@ -41,60 +47,58 @@ The numeric id of the creative
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Create creative
 
-{% swagger method="post" path="/creatives/" baseUrl="https://api.smartxsp.io" summary="Create a new creative" expanded="true" %}
-{% swagger-description %}
+## Create a new creative
+
+<mark style="color:green;">`POST`</mark> `https://api.smartxsp.io/creatives/`
+
 Create a new creative associated to a campaign with template initializationCreate a new creative associated to a campaign based on JSON string
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-The Bearer token you get during login process.
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="campaign_id" type="Integer" required="true" %}
-The campaign associated to the creative.
-{% endswagger-parameter %}
+| Name                                               | Type    | Description                                                                                                                                                         |
+| -------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| campaign\_id<mark style="color:red;">\*</mark>     | Integer | The campaign associated to the creative.                                                                                                                            |
+| name<mark style="color:red;">\*</mark>             | String  | The campaign name                                                                                                                                                   |
+| json\_template                                     | String  | The JSON stream used to create the visual part of the creative. Please look at [samples below](creative.md#json-templates-samples).                                 |
+| sub\_product\_id<mark style="color:red;">\*</mark> | Integer | Id of the Sub Product, it's the template used to create the visual. It must be a sub product of the product defined in [the campaign.](campaign.md#create-campaign) |
 
-{% swagger-parameter in="query" name="name" required="true" %}
-The campaign name
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="sub_product_id" type="Integer" required="true" %}
-Id of the Sub Product, it's the template used to create the visual. It must be a sub product of the product defined in [the campaign.](campaign.md#create-campaign)
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                    |
+| ----------------------------------------------- | ------ | ---------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | The Bearer token you get during login process. |
 
-{% swagger-parameter in="query" name="json_template" type="String" required="false" %}
-The JSON stream used to create the visual part of the creative. Please look at [samples below](creative.md#json-templates-samples).
-{% endswagger-parameter %}
+{% tabs %}
+{% tab title="200: OK Detail of a campaign" %}
 
-{% swagger-response status="200: OK" description="Detail of a campaign" %}
-
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Update creative
 
-{% swagger method="patch" path="/creatives/{creative_id}" baseUrl="https://api.smartxsp.io" summary="Update an existing creative" expanded="true" %}
-{% swagger-description %}
+## Update an existing creative
+
+<mark style="color:purple;">`PATCH`</mark> `https://api.smartxsp.io/creatives/{creative_id}`
+
 Generaly used to regenerate the visual part of the creative based on the JSON string.
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="creative_id" type="Integer" %}
-The ID of the creative to update
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="name" %}
-The new name of the creative, no modification if null or empty
-{% endswagger-parameter %}
+| Name         | Type    | Description                      |
+| ------------ | ------- | -------------------------------- |
+| creative\_id | Integer | The ID of the creative to update |
 
-{% swagger-parameter in="query" name="json_template" %}
-The new version of the JSON stream used to create the visual part of the creative.
-{% endswagger-parameter %}
-{% endswagger %}
+#### Query Parameters
+
+| Name           | Type   | Description                                                                        |
+| -------------- | ------ | ---------------------------------------------------------------------------------- |
+| name           | String | The new name of the creative, no modification if null or empty                     |
+| json\_template | String | The new version of the JSON stream used to create the visual part of the creative. |
 
 ## JSON Templates samples
 

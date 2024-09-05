@@ -6,20 +6,26 @@
 
 ## Search campaigns
 
-{% swagger method="get" path="/campaigns" baseUrl="https://api.smartxsp.io" summary="Search campaigns" expanded="true" %}
-{% swagger-description %}
+## Search campaigns
+
+<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns`
+
 Allows you to retrieve the list of campaigns according to the scope of the connected user as well as the input parameters. :warning: Please note that the list is limited to the last 1000 campaigns.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-The Bearer token you get during login process.
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" %}
+| Name | Type   | Description |
+| ---- | ------ | ----------- |
+|      | String |             |
 
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="List of campaigns" %}
+| Name                                            | Type   | Description                                    |
+| ----------------------------------------------- | ------ | ---------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | The Bearer token you get during login process. |
+
+{% tabs %}
+{% tab title="200: OK List of campaigns" %}
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
@@ -51,25 +57,31 @@ The Bearer token you get during login process.
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Get campaign
 
-{% swagger method="get" path="/campaigns/{campaign_id}" baseUrl="https://api.smartxsp.io" summary="Get campaign details" expanded="true" %}
-{% swagger-description %}
+## Get campaign details
+
+<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns/{campaign_id}`
+
 Retrieves campaign details.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-The Bearer token you get during login process.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="campaign_id" required="true" %}
-The numeric id of the campaign
-{% endswagger-parameter %}
+| Name                                           | Type   | Description                    |
+| ---------------------------------------------- | ------ | ------------------------------ |
+| campaign\_id<mark style="color:red;">\*</mark> | String | The numeric id of the campaign |
 
-{% swagger-response status="200: OK" description="Detail of a campaign" %}
+#### Headers
+
+| Name                                            | Type   | Description                                    |
+| ----------------------------------------------- | ------ | ---------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | The Bearer token you get during login process. |
+
+{% tabs %}
+{% tab title="200: OK Detail of a campaign" %}
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
@@ -98,81 +110,45 @@ The numeric id of the campaign
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Create campaign
 
-{% swagger method="post" path="/campaigns/" baseUrl="https://api.smartxsp.io" summary="Create a new campaign" expanded="true" %}
-{% swagger-description %}
+## Create a new campaign
+
+<mark style="color:green;">`POST`</mark> `https://api.smartxsp.io/campaigns/`
+
 Retrieves campaign details.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-The Bearer token you get during login process.
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="account_id" type="Integer" %}
-The account associated to the campaign. If not provided it will be the user account.
-{% endswagger-parameter %}
+| Name                                          | Type     | Description                                                                                     |
+| --------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
+| account\_id                                   | Integer  | The account associated to the campaign. If not provided it will be the user account.            |
+| name<mark style="color:red;">\*</mark>        | String   | The campaign name                                                                               |
+| start\_at<mark style="color:red;">\*</mark>   | Datetime | The start of the campaign, on GMT timezone using the format "Y-m-d H:i:s" (2023-01-31 12:15:00) |
+| stop\_at<mark style="color:red;">\*</mark>    | Datetime | The end of the campaign, on GMT timezone using the same format that start\_at                   |
+| budget<mark style="color:red;">\*</mark>      | Integer  | Amount of impressions to serve                                                                  |
+| buy\_price<mark style="color:red;">\*</mark>  | Decimal  | Maximum CPM price to buy on programmatic network                                                |
+| sell\_price                                   | Decimal  | Your sell CPM value                                                                             |
+| product\_id<mark style="color:red;">\*</mark> | Integer  | Id of the main product                                                                          |
+| site\_countries                               | Array    | List of country id. Target sites that deal with a country.                                      |
+| geo\_countries                                | Array    | List of country id. Target user localized in a country.                                         |
+| geo\_lists                                    | Array    | List of geoList id. Target user on a postal code level                                          |
+| packages                                      | Array    | List of package id. Target sites on a packaged sites list                                       |
+| sites                                         | Array    | List of site id. Target specific website by their id.                                           |
+| segments                                      | Array    | List of data segment id. Target user or content based on data segments.                         |
+| contexts                                      | Array    | List of contextual segment id. Target content based on contextuel content.                      |
 
-{% swagger-parameter in="query" name="name" required="true" %}
-The campaign name
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="query" name="product_id" type="Integer" required="true" %}
-Id of the main product
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                    |
+| ----------------------------------------------- | ------ | ---------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | The Bearer token you get during login process. |
 
-{% swagger-parameter in="query" name="start_at" type="Datetime" required="true" %}
-The start of the campaign, on GMT timezone using the format "Y-m-d H:i:s" (2023-01-31 12:15:00)
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="stop_at" type="Datetime" required="true" %}
-The end of the campaign, on GMT timezone using the same format that start\_at
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="budget" type="Integer" required="true" %}
-Amount of impressions to serve
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="buy_price" type="Decimal" required="true" %}
-Maximum CPM price to buy on programmatic network
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="sell_price" type="Decimal" %}
-Your sell CPM value
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="site_countries" type="Array" %}
-List of country id. Target sites that deal with a country.&#x20;
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="geo_countries" type="Array" %}
-List of country id. Target user localized in a country.&#x20;
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="geo_lists" type="Array" %}
-List of geoList id. Target user on a postal code level
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="packages" type="Array" %}
-List of package id. Target sites on a packaged sites list
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="sites" type="Array" %}
-List of site id. Target specific website by their id.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="segments" type="Array" %}
-List of data segment id. Target user or content based on data segments.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="contexts" type="Array" %}
-List of contextual segment id. Target content based on contextuel content.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Detail of a campaign" %}
+{% tabs %}
+{% tab title="200: OK Detail of a campaign" %}
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
@@ -201,6 +177,6 @@ List of contextual segment id. Target content based on contextuel content.
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
