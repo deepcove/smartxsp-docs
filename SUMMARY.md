@@ -76,3 +76,4 @@
 ## Settings
 
 * [Site custom settings](settings/site-custom-settings.md)
+* [Macro in Creative URL](settings/macro-in-creative-url.md)
