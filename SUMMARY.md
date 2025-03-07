@@ -81,3 +81,4 @@
 ## Terms & conditions
 
 * [Privacy](terms-and-conditions/privacy.md)
+* [Terms](terms-and-conditions/terms.md)
