@@ -14,3 +14,47 @@
 | ------------ | ------- | ----------------- | -------------------------------------------------------------------------- |
 | final\_close | false   | bool (false/true) | Enable when the "minimized"  button is clicked to never open the ad again. |
 
+## SmartRead
+
+| Code            | Default | Value             | Description                               |
+| --------------- | ------- | ----------------- | ----------------------------------------- |
+| disable\_pip    | false   | bool (false/true) | Disable the Picture in Picture experience |
+| disable\_vision | false   | bool (false/true) | Disable the Vision experience             |
+
+## SmartSkin
+
+<table><thead><tr><th width="192.3203125">Code</th><th width="115.27734375">Default</th><th width="133.1328125">Value</th><th>Description</th></tr></thead><tbody><tr><td>sticky_mode</td><td>class</td><td>class <br>transform<br>custom</td><td>Manage the sticky mode by using a specific class "smx_top" or by managing transform on main element.</td></tr><tr><td>initial_top</td><td>0</td><td>integer</td><td>Distance in pixels to the top of the website when the scroll is at the top.<br>* Only in transform mode</td></tr><tr><td>scrolling_top</td><td>0</td><td>integer</td><td>Distance to keep on top when scrolling.<br>* Only in transform mode</td></tr><tr><td>background_element</td><td>body</td><td>string</td><td>Query identifier of the element to apply the background color.</td></tr></tbody></table>
+
+You can also have you own custom sticky javascript function :&#x20;
+
+```
+smxDeep._window._run_id_scrollCustom = function() {
+    //Your own function
+}
+
+//Example detecting sub navigation
+smxDeep._window._run_id_scrollCustom = function() {
+    var subNav = smxDeep._document.querySelector(".sub-nav-wrapper");
+    var contentDiv =  smxDeep._document.body;
+    var smk =  smxDeep._document.getElementById("_run_id_smk");
+
+    if(subNav != null) {
+        var initialTop = 179;
+    } else {
+        var initialTop = 139;
+    }
+    var scrollingTop = 40;
+
+    var rect = contentDiv.getBoundingClientRect();
+
+    if(smk != null) {
+        smk.style.position = "fixed";
+        if( rect.top + parseInt(initialTop) > scrollingTop) {
+            smk.style.transform = "translateY(" + ( rect.top + parseInt(initialTop)) + "px)";
+        } else {
+            smk.style.transform = "translateY("+scrollingTop+"px)";
+        }
+    }
+}
+```
+
