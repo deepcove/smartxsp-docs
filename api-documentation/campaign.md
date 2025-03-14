@@ -6,8 +6,6 @@
 
 ## Search campaigns
 
-## Search campaigns
-
 <mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns`
 
 Allows you to retrieve the list of campaigns according to the scope of the connected user as well as the input parameters. :warning: Please note that the list is limited to the last 1000 campaigns.
@@ -60,8 +58,6 @@ Allows you to retrieve the list of campaigns according to the scope of the conne
 {% endtab %}
 {% endtabs %}
 
-## Get campaign
-
 ## Get campaign details
 
 <mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns/{campaign_id}`
@@ -112,8 +108,6 @@ Retrieves campaign details.
 {% endcode %}
 {% endtab %}
 {% endtabs %}
-
-## Create campaign
 
 ## Create a new campaign
 
@@ -180,3 +174,81 @@ Retrieves campaign details.
 {% endtab %}
 {% endtabs %}
 
+## Get Campaign Report
+
+<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns{campaign_id}/report`
+
+**Headers**
+
+| Name                                            | Type   | Description                                    |
+| ----------------------------------------------- | ------ | ---------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | The Bearer token you get during login process. |
+
+#### Path Parameters
+
+| Name                                           | Type   | Description                    |
+| ---------------------------------------------- | ------ | ------------------------------ |
+| campaign\_id<mark style="color:red;">\*</mark> | String | The numeric id of the campaign |
+
+#### Query Parameters
+
+| Name                                    | Type     | Description                                                                          |
+| --------------------------------------- | -------- | ------------------------------------------------------------------------------------ |
+| account\_id                             | Integer  | The account associated to the campaign. If not provided it will be the user account. |
+| account\_code                           | String   | The custom account code associated to the campaign instade of the account\_id        |
+| start<mark style="color:red;">\*</mark> | Datetime | The start of the reporting                                                           |
+| stop<mark style="color:red;">\*</mark>  | Datetime | The end of the reporting                                                             |
+| dim\_date                               | Boolean  | Activate date dimension. If it is set to false, we will cumulate                     |
+| dim\_site                               | Boolean  | Activate site (domain and id) dimension                                              |
+| dim\_creative                           | Boolean  | Activate creative dimension                                                          |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    "success":true,
+    "data":{
+        "account_id":2216,
+        "campaign_id":8760,
+        "start":"2023-01-01",
+        "stop":"2023-03-01",
+        "report":[
+            {
+                 "date":"2023-02-01",
+                 "site_id":"6",
+                 "site_domain":"actu.fr",
+                 "creative_id":33876,
+                 "impressions":3409,
+                 "vimpressions":3209,
+                 "clicks":24,
+                 "exposure":459872,
+                 "video_0":4302,
+                 "video_25":4103,
+                 "video_50":3570,
+                 "video_75":3104,
+                 "video_100":2674
+            },
+            {
+                 "date":"2023-02-01",
+                 "site_id":"6",
+                 "site_domain":"actu.fr",
+                 "creative_id":33878,
+                 "impressions":5409,
+                 "vimpressions":5288,
+                 "clicks":35,
+                 "exposure":786999,
+                 "video_0":8944,
+                 "video_25":8698,
+                 "video_50":8034,
+                 "video_75":7800,
+                 "video_100":6535
+            }
+       ]
+    },
+    "message":"Report generated successfully."
+}
+```
+{% endtab %}
+{% endtabs %}
