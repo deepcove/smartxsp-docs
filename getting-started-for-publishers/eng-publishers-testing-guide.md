@@ -56,7 +56,7 @@ The most crucial step: **you must uncheck the "Served in a SafeFrame" option**. 
 
 Once this step is completed, you can **save your creative** and start seeing your campaign **go live on your site**.
 
-## SmartCover
+### SmartCover
 
 #### SmartCover image
 
