@@ -38,11 +38,11 @@ La mise en place d’une campagne de test avec **Google Ad Manager** est très s
 
 Lors de la phase de création du visuel associé à votre Line Item, vous devez choisir le format "Personnalisée" :&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Sélection du type de visuel Personnalisé</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Sélection du type de visuel Personnalisé</p></figcaption></figure>
 
 Lors de la création proprement dite, vous devez conserver la **taille du bloc d'annonces** que vous souhaitez cibler. Comme mentionné précédemment, nos formats peuvent être diffusés **dans toutes les tailles**, y compris sur les formats **hors page (Out of Page)**.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Il vous suffit ensuite de **copier/coller le script fourni par notre plateforme SmartXSP** (ou d’utiliser ceux disponibles dans la suite de ce document pour vos tests). **Aucune modification du script n’est nécessaire.**
 
