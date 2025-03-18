@@ -4,7 +4,7 @@
 * [How to create your first campaign](how-to-create-your-first-campaign.md)
 * [Getting Started for Publishers](getting-started-for-publishers/README.md)
   * [\[ENG\] Publishers : Testing Guide](getting-started-for-publishers/eng-publishers-testing-guide.md)
-  * [\[FRA\] - Editeurs : Manuel d'intégration](getting-started-for-publishers/fra-editeurs-manuel-dintegration.md)
+  * [\[FRA\] Editeurs : Manuel d'intégration](getting-started-for-publishers/fra-editeurs-manuel-dintegration.md)
 
 ## SmartCover
 

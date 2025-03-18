@@ -94,3 +94,157 @@ Creative:  #1250 - SmartCover - Image - 1250
     deepsmx_3b66.push();
 </script>
 ```
+
+#### SmartCover Mini Video
+
+{% hint style="info" %}
+Demo : [https://demo.smartxsp.io/?pvw=78Mf1rxrx0x7x22e2c7p\&pvwc=29x719xrxpx9TMx7022\&format=smc](https://demo.smartxsp.io/?pvw=78Mf1rxrx0x7x22e2c7p\&pvwc=29x719xrxpx9TMx7022\&format=smc)
+{% endhint %}
+
+```
+<!-- SmartXSP SmartCover Campaign (GAM)
+Campaign : #1074 - [Imagine] SmartCover 
+Creative:  #1293 - Mini-Video - 1293
+-->
+<script src="https://ng.deepsmx.com/smx.js?id=smx_1074" class="smx_script"></script>
+<div id="deepsmx_3425" class="smx_ph"></div>
+<script>
+    smxDeep.addKeyValue('gam_width','%%WIDTH%%');
+    smxDeep.addKeyValue('gam_height','%%HEIGHT%%');
+    smxDeep.addKeyValue('gam_eadv','%eadv!');
+    smxDeep.addKeyValue('gam_epid','%epid!');
+    smxDeep.addKeyValue('gam_eaid','%eaid!');
+    smxDeep.addKeyValue('gam_ecid','%ecid!');
+    smxDeep.addKeyValue('gam_ebuy','%ebuy!');
+    smxDeep.addKeyValue('gam_cachebuster','%%CACHEBUSTER%%');
+    smxDeep.addKeyValue('gam_site','%%SITE%%');
+
+    
+    smxDeep._adserver="gam";
+    smxDeep.push();
+
+    deepsmx_3425 = smxDeep.addBlock('deepsmx_3425',smxDeep._format);
+    deepsmx_3425.setClickTrack('%%CLICK_URL_UNESC%%');
+    deepsmx_3425.setViewTrack('%%VIEW_URL_UNESC%%');
+    deepsmx_3425.setClickTarget('_blank');
+    deepsmx_3425.setCreativeId('1293');
+    deepsmx_3425.push();
+</script>
+```
+
+### SmartPulse
+
+#### SmartPulse Image & Terms
+
+{% hint style="info" %}
+Demo : [https://demo.smartxsp.io/?pvw=297a18xrxrx2TM2T29\&pvwc=7rMe1Mxrx2xMx0MdxpM7\&format=smp\&smx\_rndr=true](https://demo.smartxsp.io/?pvw=297a18xrxrx2TM2T29\&pvwc=7rMe1Mxrx2xMx0MdxpM7\&format=smp\&smx_rndr=true)
+{% endhint %}
+
+```
+<!-- SmartXSP SmartPulse Campaign (GAM)
+Campaign : #1143 - [Imagine] SmartPulse 
+Creative:  #1460 - Image - Ballentine&#039;s avec Conditions - 1460
+-->
+<script src="https://ng.deepsmx.com/smx.js?id=smx_1143" class="smx_script"></script>
+<div id="deepsmx_bce6" class="smx_ph"></div>
+<script>
+    smxDeep.addKeyValue('gam_width','%%WIDTH%%');
+    smxDeep.addKeyValue('gam_height','%%HEIGHT%%');
+    smxDeep.addKeyValue('gam_eadv','%eadv!');
+    smxDeep.addKeyValue('gam_epid','%epid!');
+    smxDeep.addKeyValue('gam_eaid','%eaid!');
+    smxDeep.addKeyValue('gam_ecid','%ecid!');
+    smxDeep.addKeyValue('gam_ebuy','%ebuy!');
+    smxDeep.addKeyValue('gam_cachebuster','%%CACHEBUSTER%%');
+    smxDeep.addKeyValue('gam_site','%%SITE%%');
+
+    
+    smxDeep._adserver="gam";
+    smxDeep.push();
+
+    deepsmx_bce6 = smxDeep.addBlock('deepsmx_bce6',smxDeep._format);
+    deepsmx_bce6.setClickTrack('%%CLICK_URL_UNESC%%');
+    deepsmx_bce6.setViewTrack('%%VIEW_URL_UNESC%%');
+    deepsmx_bce6.setClickTarget('_blank');
+    deepsmx_bce6.setCreativeId('1460');
+    deepsmx_bce6.push();
+</script>
+```
+
+### SmartSkin
+
+#### SmartSkin Mini Video
+
+{% hint style="info" %}
+Demo : [https://demo.smartxsp.io/?pvw=2r7px7x2Tx2x9Max0Mf\&pvwc=29x278x1x0xpx8x1MpT\&format=smk](https://demo.smartxsp.io/?pvw=2r7px7x2Tx2x9Max0Mf\&pvwc=29x278x1x0xpx8x1MpT\&format=smk)
+{% endhint %}
+
+```
+<!-- SmartXSP SmartSkin Campaign (GAM)
+Campaign : #4349 - [Imagine] - SmartSkin 
+Creative:  #5028 - SmartSkin - Mini Vidéo EVIAN - 5028
+-->
+<script src="https://ng.deepsmx.com/smx.js?id=smx_4349" class="smx_script"></script>
+<div id="deepsmx_fc4d" class="smx_ph"></div>
+<script>
+    smxDeep.addKeyValue('gam_width','%%WIDTH%%');
+    smxDeep.addKeyValue('gam_height','%%HEIGHT%%');
+    smxDeep.addKeyValue('gam_eadv','%eadv!');
+    smxDeep.addKeyValue('gam_epid','%epid!');
+    smxDeep.addKeyValue('gam_eaid','%eaid!');
+    smxDeep.addKeyValue('gam_ecid','%ecid!');
+    smxDeep.addKeyValue('gam_ebuy','%ebuy!');
+    smxDeep.addKeyValue('gam_cachebuster','%%CACHEBUSTER%%');
+    smxDeep.addKeyValue('gam_site','%%SITE%%');
+
+    
+    smxDeep._adserver="gam";
+    smxDeep.push();
+
+    deepsmx_fc4d = smxDeep.addBlock('deepsmx_fc4d',smxDeep._format);
+    deepsmx_fc4d.setClickTrack('%%CLICK_URL_UNESC%%');
+    deepsmx_fc4d.setViewTrack('%%VIEW_URL_UNESC%%');
+    deepsmx_fc4d.setClickTarget('_blank');
+    deepsmx_fc4d.setCreativeId('5028');
+    deepsmx_fc4d.push();
+</script>
+```
+
+### SmartRead
+
+#### SmartRead Slider Square & Picture in Picture
+
+{% hint style="info" %}
+Demo : [https://demo.smartxsp.io/?pvw=1M797Mx9xpxMxpM718\&pvwc=M72bMax1x2xMx97r291p\&format=smr](https://demo.smartxsp.io/?pvw=1M797Mx9xpxMxpM718\&pvwc=M72bMax1x2xMx97r291p\&format=smr)
+{% endhint %}
+
+```
+<!-- SmartXSP SmartRead Campaign (GAM)
+Campaign : #926 - [Imagine] SmartRead 
+Creative:  #5469 - Fluid Slider Square mode - 5469
+-->
+<script src="https://ng.deepsmx.com/smx.js?id=smx_926" class="smx_script"></script>
+<div id="deepsmx_7221" class="smx_ph"></div>
+<script>
+    smxDeep.addKeyValue('gam_width','%%WIDTH%%');
+    smxDeep.addKeyValue('gam_height','%%HEIGHT%%');
+    smxDeep.addKeyValue('gam_eadv','%eadv!');
+    smxDeep.addKeyValue('gam_epid','%epid!');
+    smxDeep.addKeyValue('gam_eaid','%eaid!');
+    smxDeep.addKeyValue('gam_ecid','%ecid!');
+    smxDeep.addKeyValue('gam_ebuy','%ebuy!');
+    smxDeep.addKeyValue('gam_cachebuster','%%CACHEBUSTER%%');
+    smxDeep.addKeyValue('gam_site','%%SITE%%');
+
+    
+    smxDeep._adserver="gam";
+    smxDeep.push();
+
+    deepsmx_7221 = smxDeep.addBlock('deepsmx_7221',smxDeep._format);
+    deepsmx_7221.setClickTrack('%%CLICK_URL_UNESC%%');
+    deepsmx_7221.setViewTrack('%%VIEW_URL_UNESC%%');
+    deepsmx_7221.setClickTarget('_blank');
+    deepsmx_7221.setCreativeId('5469');
+    deepsmx_7221.push();
+</script>
+```
