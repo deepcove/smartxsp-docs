@@ -1,2 +1,0 @@
-# SmartCover : Creatopy HTML5
-

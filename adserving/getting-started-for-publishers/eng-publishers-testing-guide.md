@@ -34,25 +34,25 @@ Setting up a test campaign with **Google Ad Manager** is very simple. Overall, t
 
 During the creative setup phase associated with your **Line Item**, you must select the **"Custom"** format.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 When configuring the creative, ensure that you **maintain the ad unit size** you wish to target. As mentioned earlier, our formats can be displayed in **any size**, including **Out of Page** formats.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Next, simply **copy and paste** the script provided by our **SmartXSP platform** (or use the ones available later in this document for testing). **No modifications to the script are required.**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 The **Click-through URL field does not need to be filled in**, as the **click-through URL is managed directly** by our **SmartXSP platform**.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The most crucial step: **you must uncheck the "Served in a SafeFrame" option**. Without this, **our format will not display on your site**.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Once this step is completed, you can **save your creative** and start seeing your campaign **go live on your site**.
 

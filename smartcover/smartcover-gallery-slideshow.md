@@ -1,2 +1,0 @@
-# SmartCover : Gallery (Slideshow)
-

@@ -1,2 +1,0 @@
-# SmartCover : Parallax
-

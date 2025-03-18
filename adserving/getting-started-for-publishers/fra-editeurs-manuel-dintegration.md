@@ -38,25 +38,25 @@ La mise en place d’une campagne de test avec **Google Ad Manager** est très s
 
 Lors de la phase de création du visuel associé à votre Line Item, vous devez choisir le format "Personnalisée" :&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Sélection du type de visuel Personnalisé</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Sélection du type de visuel Personnalisé</p></figcaption></figure>
 
 Lors de la création proprement dite, vous devez conserver la **taille du bloc d'annonces** que vous souhaitez cibler. Comme mentionné précédemment, nos formats peuvent être diffusés **dans toutes les tailles**, y compris sur les formats **hors page (Out of Page)**.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Il vous suffit ensuite de **copier/coller le script fourni par notre plateforme SmartXSP** (ou d’utiliser ceux disponibles dans la suite de ce document pour vos tests). **Aucune modification du script n’est nécessaire.**
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 La zone **URL de destination** n’a pas besoin d’être remplie. En effet, l’**URL utilisée lors du clic sur la publicité est gérée directement** par notre plateforme **SmartXSP**.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Enfin, l’élément le plus important : **il est impératif de décocher la case "Diffusée dans un cadre SafeFrame"**. Sans cette action, **notre format ne pourra pas s’afficher sur votre site.**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Case à décocher impérativement.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Case à décocher impérativement.</p></figcaption></figure>
 
 Une fois cette étape terminée, vous pouvez **enregistrer votre visuel** et commencer à voir votre campagne **se diffuser** sur votre site.
 
