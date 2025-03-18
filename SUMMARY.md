@@ -2,9 +2,9 @@
 
 * [Welcome to SmartXSP](README.md)
 * [How to create your first campaign](how-to-create-your-first-campaign.md)
-* [Get Started](get-started/README.md)
-  * [\[ENG\] Publishers : Testing Guide](get-started/eng-publishers-testing-guide.md)
-  * [\[FRA\] - Editeurs : Manuel d'intégration](get-started/fra-editeurs-manuel-dintegration.md)
+* [Getting Started for Publishers](getting-started-for-publishers/README.md)
+  * [\[ENG\] Publishers : Testing Guide](getting-started-for-publishers/eng-publishers-testing-guide.md)
+  * [\[FRA\] - Editeurs : Manuel d'intégration](getting-started-for-publishers/fra-editeurs-manuel-dintegration.md)
 
 ## SmartCover
 
