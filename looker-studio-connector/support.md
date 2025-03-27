@@ -1,5 +1,8 @@
 # Support
 
-For any problem using your SmartXSP connector, please contact us directly at hello@oursblanc.io
+{% embed url="https://docs.google.com/forms/d/e/1FAIpQLSdcAPiBJ3dz7e7CLfFIXPeunj39pR6a36_8BxICoBGaDLd42g/viewform?usp=sharing" %}
 
-If you do not have a SmartXSP account, you can also contact us at hello@oursblanc.io
+For any other issue, please contact us directly at hello@oursblanc.io
+
+
+
