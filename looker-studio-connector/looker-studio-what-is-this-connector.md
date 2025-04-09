@@ -2,6 +2,8 @@
 
 <figure><img src="../.gitbook/assets/oursblanc-int-io-horizontal-artic_blue-6000.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/oursblanc-logo-black-600.png" alt=""><figcaption></figcaption></figure>
+
 ### Connect SmartXSP to Looker Studio
 
 **Visualize your advertising performance in real time**
