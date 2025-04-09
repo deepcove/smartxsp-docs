@@ -62,7 +62,7 @@ Here's what you can access using the SmartXSP connector:
 
 #### Secure and scalable
 
-The SmartXSP connector is authenticated via a secure API token tied to your enterprise account. Data access is scoped per user and per account, ensuring full control and compliance with privacy standards (including GDPR). Read our [Privacy](privacy.md) and read our [Terms](terms.md).
+The SmartXSP connector is authenticated via a secure API token tied to your enterprise account. Data access is scoped per user and per account, ensuring full control and compliance with privacy standards (including GDPR). Read our [Privacy](../terms-and-conditions/privacy.md) and read our [Terms](../terms-and-conditions/terms.md).
 
 ***
 
