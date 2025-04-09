@@ -51,7 +51,7 @@ Here's what you can access using the SmartXSP connector:
 1. Go to Looker Studio and select “**Add Data**”
 2. Search for “**SmartXSP**” in the connector list
 3. Authenticate using your SmartXSP API token
-4. Select your account and data ranges, if you don't have an account, contact us to create a new one by mail at [hello@oursblanc.io](mailto:hello@oursblanc.io) or by this form.
+4. Select your account and data ranges, if you don't have an account, contact us to create a new one by mail at [hello@oursblanc.io](mailto:hello@oursblanc.io) or by this [form](../register-smartxsp.md).
 5. Start building beautiful dashboards with real-time campaign insights
 
 ***
