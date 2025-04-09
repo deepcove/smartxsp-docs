@@ -34,8 +34,6 @@
 
 * [Looker Studio : what is this connector](looker-studio-connector/looker-studio-what-is-this-connector.md)
 * [Support](looker-studio-connector/support.md)
-* [Privacy](looker-studio-connector/privacy.md)
-* [Terms](looker-studio-connector/terms.md)
 
 ***
 
