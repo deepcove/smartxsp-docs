@@ -37,6 +37,10 @@
 * [Privacy](looker-studio-connector/privacy.md)
 * [Terms](looker-studio-connector/terms.md)
 
+***
+
+* [Register SmartXSP](register-smartxsp.md)
+
 ## Terms & conditions
 
 * [Privacy](terms-and-conditions/privacy.md)
