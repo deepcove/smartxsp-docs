@@ -20,3 +20,4 @@ layout:
 
 # Welcome to SmartXSP
 
+Enjoy the moment
