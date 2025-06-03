@@ -58,3 +58,10 @@ smxDeep._window._run_id_scrollCustom = function() {
 }
 ```
 
+## SmartView
+
+| Code | Default | Value         | Description                       |
+| ---- | ------- | ------------- | --------------------------------- |
+| v    | empty   | original      | Switch to original display mode   |
+| el   | empty   | QuerySelector | Auto position under this element  |
+| scr  | 1200    | Integer       | Distance in pixel to minimize     |
