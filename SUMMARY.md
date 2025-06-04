@@ -23,6 +23,10 @@
 * [Site custom settings](settings/site-custom-settings.md)
 * [Macro in Creative URL](settings/macro-in-creative-url.md)
 
+***
+
+* [Script Tag](script-tag.md)
+
 ## API Documentation
 
 * [Starter Guide](api-documentation/starter-guide.md)
