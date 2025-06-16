@@ -60,8 +60,5 @@ smxDeep._window._run_id_scrollCustom = function() {
 
 ## SmartView
 
-| Code | Default | Value         | Description                       |
-| ---- | ------- | ------------- | --------------------------------- |
-| v    | empty   | original      | Switch to original display mode   |
-| el   | empty   | QuerySelector | Auto position under this element  |
-| scr  | 1200    | Integer       | Distance in pixel to minimize     |
+<table><thead><tr><th width="92.0078125">Code</th><th width="109.8125">Default</th><th width="149.046875">Value</th><th>Description</th></tr></thead><tbody><tr><td>v</td><td>empty</td><td>original</td><td>Switch to original display mode</td></tr><tr><td>el</td><td>empty</td><td>QuerySelector</td><td>Auto position under this element </td></tr><tr><td>scrm</td><td>600</td><td>Integer</td><td>Distance in pixel to minimize</td></tr><tr><td>scr1</td><td>3000</td><td>Integer</td><td>Distance in pixel to disappear on interval t1 > t2</td></tr><tr><td>scr2</td><td>2000</td><td>Integer</td><td>Distance in pixel to disappear on interval t2 > t3</td></tr><tr><td>scr3</td><td>1000</td><td>Integer</td><td>Distance in pixel to disappear on interval t3 ></td></tr><tr><td>tps1</td><td>4</td><td>Integer</td><td>Sanctuarisation of the expand mode (in seconds)</td></tr><tr><td>tps2</td><td>15</td><td>Integer</td><td>End time of high scroller user (between tps1 and tps2)</td></tr><tr><td>tps3</td><td>40</td><td>Integer</td><td>End time of medium scroller user (between tps2 and tps3)</td></tr><tr><td>tpsc</td><td>180</td><td>Integer</td><td>End time of low scroller user and time to auto disappear of the ad</td></tr></tbody></table>
+
