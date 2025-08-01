@@ -18,6 +18,11 @@
   * [\[ENG\] Publishers : Testing Guide](adserving/getting-started-for-publishers/eng-publishers-testing-guide.md)
   * [\[FRA\] Editeurs : Manuel d'intégration](adserving/getting-started-for-publishers/fra-editeurs-manuel-dintegration.md)
 
+***
+
+* [Agencies](agencies/README.md)
+  * [StackAdapt](agencies/stackadapt.md)
+
 ## Settings
 
 * [Site custom settings](settings/site-custom-settings.md)
