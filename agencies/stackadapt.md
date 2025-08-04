@@ -30,4 +30,33 @@ Additionally, we provide a summary table highlighting the key information you ne
 
 <table><thead><tr><th width="149.18359375">Deal ID</th><th width="84.37109375">Channel</th><th width="197.94921875">SSP</th><th width="204.6875">Publisher Name</th><th>Device</th></tr></thead><tbody><tr><td>955542578031</td><td>Display</td><td>Equativ (Display/In-Ad)</td><td>Agence Ours Blanc - FR</td><td>Mobile</td></tr><tr><td>187391524564</td><td>Display</td><td>Equativ (Display/In-Ad)</td><td>Agence Ours Blanc - FR</td><td>Desktop</td></tr></tbody></table>
 
-##
+## **Part 2: Creating the Campaign and Integrating the Creative Code**
+
+To start, you will create your campaign within our SmartXSP platform. Simply navigate to the "Campaign" menu and select the option to create a new campaign. Make sure that the "Ad Server" buying strategy is selected. Once your campaign is set up, and you've created your creative as you normally would, the next step is to retrieve the code that you'll need to implement in StackAdapt.
+
+To do this, go to the campaign details in SmartXSP and navigate to the "**Managed**" tab. Within this tab, you'll be able to select the appropriate ad server from a dropdown list—in this case, you'll choose **StackAdapt**. Once selected, the platform will automatically generate the code you need. You can then use the "Copy to Clipboard" function to easily grab this code.
+
+In StackAdapt, you'll create your campaign just as you normally would. The key difference when using our OursBlanc premium formats is that you'll need to select the private deals you previously created. You can choose the mobile deal, the desktop deal, or both, depending on the needs of your campaign.&#x20;
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+To do this, head over to the "Inventory" section in StackAdapt, and select “Edit Inventory.” Under the “BYOD-PMP” tab, you’ll find the deals you set up earlier—like the OursBlanc premium mobile and desktop formats. This is the first unique step when setting up SmartXSP OursBlanc formats.
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+We recommend you to check "Run only on theses Inventory Packages/PMP Deals" to ensure the correct delivery.
+{% endhint %}
+
+The second unique step comes when you're adding the creative. Click on “Add New” to create a new creative, and instead of uploading an image, you’ll choose the “3rd Party Tag” option.&#x20;
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+At this point, you’ll need to select a size for your creative. To maximize reach, it’s recommended to create multiple versions of the creative using the same script but in different sizes. The primary sizes we recommend are 300x250 and 320x50. You can also include additional sizes like 320x100, 300x600, or 768x90 for even more reach.
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+Once you’ve pasted the code you copied from SmartXSP and filled out the remaining fields, your setup is complete. With these steps done, your campaign is ready to deliver the unique OursBlanc formats.
+
+
+
