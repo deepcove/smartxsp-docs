@@ -20,6 +20,7 @@
 | --------------- | ------- | ----------------- | ----------------------------------------- |
 | disable\_pip    | false   | bool (false/true) | Disable the Picture in Picture experience |
 | disable\_vision | false   | bool (false/true) | Disable the Vision experience             |
+| container       | empty   | QuerySelector     | Set the element to display the SmartRead  |
 
 ## SmartSkin
 
