@@ -7,7 +7,8 @@
 
 * [Social Generator 2](social-generator.md)
 
-### Contextual Help
+## Contextual Help
+
 * [Content Categories](documentation/content-categories.md)
 
 ## SmartPulse
@@ -16,7 +17,7 @@
 * [Transition Effects](transition-effects.md)
 * [Social Generator](social-generator.md)
 
-## Ad Serving <a href="#adserving" id="adserving"></a>
+## Ad Serving <a href="#a-dserving" id="a-dserving"></a>
 
 * [Getting Started for Publishers](adserving/getting-started-for-publishers/README.md)
   * [\[ENG\] Publishers : Testing Guide](adserving/getting-started-for-publishers/eng-publishers-testing-guide.md)
