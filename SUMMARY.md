@@ -5,12 +5,11 @@
 
 ## Documentation
 
+* [Social Generator 2](social-generator.md)
+
 ## SmartPulse
 
 * [Advanced Tracking](smartpulse/advanced-tracking.md)
-
-***
-
 * [Transition Effects](transition-effects.md)
 * [Social Generator](social-generator.md)
 
