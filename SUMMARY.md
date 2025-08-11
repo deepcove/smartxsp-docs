@@ -3,6 +3,8 @@
 * [Welcome to SmartXSP](README.md)
 * [How to create your first campaign](how-to-create-your-first-campaign.md)
 
+## Documentation
+
 ## SmartPulse
 
 * [Advanced Tracking](smartpulse/advanced-tracking.md)
