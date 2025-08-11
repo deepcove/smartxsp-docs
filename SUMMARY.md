@@ -1,14 +1,13 @@
 # Table of contents
 
 * [Welcome to SmartXSP](README.md)
-* [How to create your first campaign](how-to-create-your-first-campaign.md)
+
 
 ## Documentation
 
-* [Social Generator 2](social-generator.md)
+* [How to create your first campaign](how-to-create-your-first-campaign.md)
 
-## Contextual Help
-
+### Contextual Help
 * [Content Categories](documentation/content-categories.md)
 
 ## SmartPulse
