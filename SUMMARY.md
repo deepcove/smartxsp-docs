@@ -7,6 +7,9 @@
 
 * [Social Generator 2](social-generator.md)
 
+### Contextual Help
+* [Content Categories](documentation/content-categories.md)
+
 ## SmartPulse
 
 * [Advanced Tracking](smartpulse/advanced-tracking.md)
