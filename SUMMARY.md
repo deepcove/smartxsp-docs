@@ -2,13 +2,14 @@
 
 * [Welcome to SmartXSP](README.md)
 
-
 ## Documentation
 
 * [How to create your first campaign](how-to-create-your-first-campaign.md)
 
-### Contextual Help
-* [Content Categories](documentation/content-categories.md)
+## Targeting
+
+* [Content Categories](targeting/content-categories.md)
+* [Audience Categories](targeting/audience-categories.md)
 
 ## SmartPulse
 
