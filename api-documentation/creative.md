@@ -14,7 +14,7 @@ description: >-
 
 ## Get campaign details
 
-<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/creatives/{creative_id}`
+<mark style="color:blue;">`GET`</mark> `https://my.smartxsp.io/api/creatives/{creative_id}`
 
 Retrieves campaign details.
 
@@ -54,7 +54,7 @@ Retrieves campaign details.
 
 ## Create a new creative
 
-<mark style="color:green;">`POST`</mark> `https://api.smartxsp.io/creatives/`
+<mark style="color:green;">`POST`</mark> `https://my.smartxsp.io/api/creatives/`
 
 Create a new creative associated to a campaign with template initializationCreate a new creative associated to a campaign based on JSON string
 
@@ -83,7 +83,7 @@ Create a new creative associated to a campaign with template initializationCreat
 
 ## Update an existing creative
 
-<mark style="color:purple;">`PATCH`</mark> `https://api.smartxsp.io/creatives/{creative_id}`
+<mark style="color:purple;">`PATCH`</mark> `https://my.smartxsp.io/api/creatives/{creative_id}`
 
 Generaly used to regenerate the visual part of the creative based on the JSON string.
 

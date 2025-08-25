@@ -2,22 +2,23 @@
 
 ## Authentification
 
-{% swagger method="post" path="/login" baseUrl="https://api.smartxsp.io" summary="Identification on the SmartXSP platform" expanded="true" %}
-{% swagger-description %}
+## Identification on the SmartXSP platform
+
+<mark style="color:green;">`POST`</mark> `https://my.smartxsp.io/api/login`
+
 This method will allow you to identify yourself on the SmartXSP platform. A dedicated service account / user account is generally used to perform these operations. If you do not have such an account, contact your sales contact at OursBlanc or contact@oursblanc.io directly.
 
 At the end of this operation, you will obtain a token allowing you to execute all the following requests.
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="email" required="true" %}
-The email address of your service account
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="password" required="true" %}
-The password of your service account
-{% endswagger-parameter %}
+| Name                                       | Type   | Description                               |
+| ------------------------------------------ | ------ | ----------------------------------------- |
+| email<mark style="color:red;">\*</mark>    | String | The email address of your service account |
+| password<mark style="color:red;">\*</mark> | String | The password of your service account      |
 
-{% swagger-response status="200: OK" description="Identification accepted" %}
+{% tabs %}
+{% tab title="200: OK Identification accepted" %}
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
@@ -30,5 +31,5 @@ The password of your service account
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

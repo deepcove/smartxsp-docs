@@ -6,7 +6,7 @@
 
 ## Search campaigns
 
-<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns`
+<mark style="color:blue;">`GET`</mark> `https://my.smartxsp.io/api/campaigns`
 
 Allows you to retrieve the list of campaigns according to the scope of the connected user as well as the input parameters. :warning: Please note that the list is limited to the last 1000 campaigns.
 
@@ -60,7 +60,7 @@ Allows you to retrieve the list of campaigns according to the scope of the conne
 
 ## Get campaign details
 
-<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns/{campaign_id}`
+<mark style="color:blue;">`GET`</mark> `https://my.smartxsp.io/api/campaigns/{campaign_id}`
 
 Retrieves campaign details.
 
@@ -111,7 +111,7 @@ Retrieves campaign details.
 
 ## Create a new campaign
 
-<mark style="color:green;">`POST`</mark> `https://api.smartxsp.io/campaigns/`
+<mark style="color:green;">`POST`</mark> `https://my.smartxsp.io/api/campaigns/`
 
 Retrieves campaign details.
 
@@ -176,7 +176,7 @@ Retrieves campaign details.
 
 ## Get Campaign Report
 
-<mark style="color:blue;">`GET`</mark> `https://api.smartxsp.io/campaigns{campaign_id}/report`
+<mark style="color:blue;">`GET`</mark> `https://my.smartxsp.io/api/campaigns{campaign_id}/report`
 
 **Headers**
 
