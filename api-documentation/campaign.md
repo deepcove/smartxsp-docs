@@ -138,28 +138,27 @@ Retrieves campaign details.
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
 {
-    "success":true,
-    "data":{
-        "id":1,
-        "name":"My first campagn",
-        "state":"running",
-        "account_id":2216,
-        "owner_account_id":21,
-        "product_id":1,
-        "start_at":"2023-04-25T22:00:00.000000Z",
-        "stop_at":"2023-05-12T21:59:00.000000Z",
-        "budget":24000,
-        "sell_price":"20.00000",
-        "buy_price":"12.00000",
-        "impressions":11397,
-        "visible_impressions":7938,
-        "clicks":57,
-        "exposure_time":140122,
-        "created_at":"2023-04-26T15:24:05.000000Z",
-        "updated_at":"2023-05-02T12:37:06.000000Z",
-        "deleted_at":null
+    "success": true,
+    "data": {
+        "id": 7027,
+        "name": "Demo Campaign 2025-08-25 16:29:28",
+        "state": "waiting",
+        "account_id": 1,
+        "owner_account_id": 1,
+        "product_id": 33,
+        "start_at": "2025-08-25",
+        "stop_at": "2025-09-24",
+        "budget": 250,
+        "spend_budget": 0,
+        "impressions": null,
+        "visible_impressions": null,
+        "clicks": null,
+        "exposure_time": null,
+        "created_at": "2025-08-25T16:29:28.000000Z",
+        "updated_at": "2025-08-25T16:29:28.000000Z",
+        "deleted_at": null
     },
-    "message":"Campaign retrieved successfully."
+    "message": "Campaign created successfully."
 }
 ```
 {% endcode %}

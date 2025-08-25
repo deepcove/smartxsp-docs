@@ -1,6 +1,6 @@
 # Starter Guide
 
-## Authentification
+If you are using Lavel / PHP you can find, a sample project here : [https://github.com/OursBlanc-io/samples.smartxsp.io](https://github.com/OursBlanc-io/samples.smartxsp.io)
 
 ## Identification on the SmartXSP platform
 
