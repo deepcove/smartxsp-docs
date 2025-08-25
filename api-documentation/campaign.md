@@ -117,23 +117,15 @@ Retrieves campaign details.
 
 #### Query Parameters
 
-| Name                                          | Type     | Description                                                                                     |
-| --------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
-| account\_id                                   | Integer  | The account associated to the campaign. If not provided it will be the user account.            |
-| name<mark style="color:red;">\*</mark>        | String   | The campaign name                                                                               |
-| start\_at<mark style="color:red;">\*</mark>   | Datetime | The start of the campaign, on GMT timezone using the format "Y-m-d H:i:s" (2023-01-31 12:15:00) |
-| stop\_at<mark style="color:red;">\*</mark>    | Datetime | The end of the campaign, on GMT timezone using the same format that start\_at                   |
-| budget<mark style="color:red;">\*</mark>      | Integer  | Amount of impressions to serve                                                                  |
-| buy\_price<mark style="color:red;">\*</mark>  | Decimal  | Maximum CPM price to buy on programmatic network                                                |
-| sell\_price                                   | Decimal  | Your sell CPM value                                                                             |
-| product\_id<mark style="color:red;">\*</mark> | Integer  | Id of the main product                                                                          |
-| site\_countries                               | Array    | List of country id. Target sites that deal with a country.                                      |
-| geo\_countries                                | Array    | List of country id. Target user localized in a country.                                         |
-| geo\_lists                                    | Array    | List of geoList id. Target user on a postal code level                                          |
-| packages                                      | Array    | List of package id. Target sites on a packaged sites list                                       |
-| sites                                         | Array    | List of site id. Target specific website by their id.                                           |
-| segments                                      | Array    | List of data segment id. Target user or content based on data segments.                         |
-| contexts                                      | Array    | List of contextual segment id. Target content based on contextuel content.                      |
+| Name                                        | Type          | Description                                                                             |
+| ------------------------------------------- | ------------- | --------------------------------------------------------------------------------------- |
+| name<mark style="color:red;">\*</mark>      | String        | The campaign name                                                                       |
+| start\_at<mark style="color:red;">\*</mark> | Datetime      | The start of the campaign using the format "Y-m-d" (2025-01-31)                         |
+| stop\_at<mark style="color:red;">\*</mark>  | Datetime      | The end of the campaign using the same format that start\_at                            |
+| budget<mark style="color:red;">\*</mark>    | Integer       | Amount of budget to serve in euros                                                      |
+| product<mark style="color:red;">\*</mark>   | String        | <p>The main product : <br>- smartcover<br>- smartview<br>- smartpulse</p>               |
+| geo\_radius                                 | Arrays / Json | <p>[<br>  {<br>      lat:49.320,<br>      long:9.23,<br>      radius:20<br>  }<br>]</p> |
+|                                             |               |                                                                                         |
 
 #### Headers
 
